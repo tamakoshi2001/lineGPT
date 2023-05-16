@@ -63,4 +63,4 @@ def line_api(reply_token, text):
         api_endpoint, data=json.dumps(payload), headers=headers)
 
     # LINE Messaging APIへのリクエストの送信
-    return response.status
+    return response.status_code
