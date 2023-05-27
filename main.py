@@ -22,7 +22,7 @@ def main(request):
             print("Message replied successfully.")
         else:
             print(f"Message reply failed with status code: {status_code}")
-        return '200'
+        return str(status_code)
     except Exception as e:
         print(str(e))
         return '500'
