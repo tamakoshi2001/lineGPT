@@ -11,7 +11,7 @@ def chatGPT_api(text):
     api_endpoint = "https://api.openai.com/v1/chat/completions"
 
     # Chat GPT APIの認証情報
-    api_key = "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"
+    api_key = "XXXX"
 
     # Chat GPT APIに送信するデータの作成
     payload = {
@@ -42,7 +42,7 @@ def line_api(reply_token, text):
     api_endpoint = "https://api.line.me/v2/bot/message/reply"
 
     # LINEチャネルアクセストークン
-    channel_access_token = 'raA6hKMkhrfCZa9jIGqZ6UKLWf+PvXnhw+oi4ta2yrKT+4665CRK2q2aWgMoxnF8y6NMnM0cDXRGS+eA9BNXelFEZw3AXo1XdWQV70+NdeI7Ppk4gf306xECRaNB6PUpuufvTB8gelmojsTAtz85ywdB04t89/1O/w1cDnyilFU='
+    channel_access_token = 'XXXX'
     messages = [
         {
             "type": "text",
