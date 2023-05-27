@@ -16,10 +16,6 @@ LINE\
 4.Message APIのWebhook URLにcloud FunctionのトリガーURLを入力してください。\
 5.Line botでchatGPTが使えるようになります。botのメッセージ設定を調整してお楽しみください。
 
-# Note
-
-Message APIでcloud FunctionのWebhook URLをテストする機能がありますが、必ずエラーを起こすので、実機でテストしてください。
-
 # Author
 
 * 作成者 Yuji Tamakoshi
