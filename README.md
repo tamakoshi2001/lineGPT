@@ -6,7 +6,7 @@
 <img src="https://github.com/tamakoshi2001/lineGPT/assets/72233550/a416fa20-770a-4732-9268-f801412942cc" width="300px">\
 # Usage
 前準備\
-1.chatGPT APIと、Line botのchannel access tokenを取得して、XXXXに入力してください。\
+1.chatGPT APIと、Line botのchannel access tokenを取得して、env.pyを作成し、chatGPT_api_key, LINE_channel_access_tokenという変数にそれぞれ入力してください。\
 \
 cloud Functions\
 2.GCPのcloud Functionにファイルをアップロードしてください。\
