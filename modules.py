@@ -1,5 +1,6 @@
 import requests
 import json
+from env import chatGPT_api_key, LINE_channel_access_token
 
 
 def json_dump(reply):
@@ -11,7 +12,7 @@ def chatGPT_api(text):
     api_endpoint = "https://api.openai.com/v1/chat/completions"
 
     # Chat GPT APIの認証情報
-    api_key = "XXXX"
+    api_key = chatGPT_api_key
 
     # Chat GPT APIに送信するデータの作成
     payload = {
@@ -42,7 +43,7 @@ def line_api(reply_token, text):
     api_endpoint = "https://api.line.me/v2/bot/message/reply"
 
     # LINEチャネルアクセストークン
-    channel_access_token = 'XXXX'
+    channel_access_token = LINE_channel_access_token
     messages = [
         {
             "type": "text",
